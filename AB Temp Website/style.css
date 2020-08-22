@@ -1,0 +1,122 @@
+/* text in general */
+h1, h2, h3, p, li{
+    font-family: Tahoma, Lato, sans-serif;
+    font-style: normal;
+}
+
+
+/* nav bar */
+.navbar {
+    border: 0;
+    background-image: url("img/Cover%20Photo.jpg");
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-nav>li {
+	font-size: 16px;
+    margin-left: 20px;
+	margin-right: 20px;
+    margin-top: 20px;
+}
+
+.navbar-header {
+    margin-top: 20px;
+}
+
+.navbar-nav>li:hover {
+    text-decoration: underline;
+}
+
+.navbar-collapse{
+    border: 0;
+}
+
+.hdr{
+    left: 51px;
+    top: 528px;
+}
+
+/* content */
+.norm{
+    margin-left: 30px;
+	margin-right: 30px;
+    margin-top: 2%
+}
+
+.hdr{
+    font-size: 80px;
+    font-family: 'Playfair Display', Georgia, serif;
+    position: absolute;
+    left: 30px;
+    top: 504px;
+    color: white;
+}
+
+.ttle{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.bdy{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* hover feature */
+.wrap-img {
+  position: relative;
+}
+
+.hover-photo {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+ .hvr {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  bottom: 0%;
+  left: 1.5%;
+  right: 1.5%;
+  border: 0px;
+}
+
+
+.wrap-img:hover .hover-photo {
+  opacity: 0.15;
+}
+
+.wrap-img:hover .hvr {
+  opacity: 1;
+}
+
+.captitle{
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.googform{
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* fa bar social links */
+.fa{
+    padding: 20px;
+   font-size: 20px;
+    color: black;
+}
+
+.soc-links{
+    text-align: center;
+}
