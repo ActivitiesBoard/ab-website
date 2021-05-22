@@ -106,8 +106,10 @@ h1, h2, h3, p, li{
 }
 
 .googform{
-    text-align: center;
     margin-top: 15px;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
 }
 
 /* fa bar social links */
