@@ -46,15 +46,6 @@ h1, h2, h3, p, li{
     margin-top: 2%
 }
 
-.hdr{
-    font-size: 80px;
-    font-family: 'Playfair Display', Georgia, serif;
-    position: absolute;
-    left: 30px;
-    top: 504px;
-    color: white;
-}
-
 .ttle{
     font-size: 40px;
     font-family: "Poppins", sans-serif;
@@ -66,9 +57,56 @@ h1, h2, h3, p, li{
     font-family: "Poppins", sans-serif;
 }
 
+@media screen and (min-width: 551px) {
+    .captitle{
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+    }
+
+    .capbdy{
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+    }
+}
 /* hover feature */
 .wrap-img {
   position: relative;
+}
+
+@media screen and (max-width: 550px) {
+    .captitle{
+        font-size: 4.5vw;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+    }
+
+    .capbdy{
+        font-size: 3.5vw;
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+@media screen and (min-width: 401px) {
+   .hdr{
+    font-size: 80px;
+    font-family: 'Playfair Display', Georgia, serif;
+    position: absolute;
+    left: 30px;
+    top: 504px;
+    color: white;
+    } 
+}
+
+@media screen and (max-width: 400px) {
+    .hdr{
+    font-size: 60px;
+    font-family: 'Playfair Display', Georgia, serif;
+    position: absolute;
+    left: 30px;
+    top: 504px;
+    color: white;
+    } 
 }
 
 .hover-photo {
@@ -97,12 +135,6 @@ h1, h2, h3, p, li{
 
 .wrap-img:hover .hvr {
   opacity: 1;
-}
-
-.captitle{
-    font-size: 25px;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
 }
 
 .googform{
