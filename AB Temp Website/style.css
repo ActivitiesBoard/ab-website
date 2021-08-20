@@ -154,3 +154,18 @@ h1, h2, h3, p, li{
 .soc-links{
     text-align: center;
 }
+
+[class*="profiles"]{
+    border-radius: 50%;
+}
+
+.op{
+    text-align: center;
+}
+.oprow{
+    margin-top: 2%;
+}
+
+.nme{
+    font-size: 16px;
+}
